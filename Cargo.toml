@@ -1,0 +1,11 @@
+
+[package]
+name = "saturn"
+version = "1.0.0"
+edition = "2021"
+
+[dependencies]
+crossterm = "0.28"
+
+[profile.release]
+opt-level = 3
